@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "name": "Webサービス開発",
+      "description": "WebサイトやWebアプリケーションを作る方向けのカテゴリです",
+      "items": [
+        {
+          "label": "IDE(統合開発環境)",
+          "description": "コーディング、デバッグ、ビルドなど開発作業を一元管理するソフトウェア",
+          "items": [
+            {
+              "label": "VSCode",
+              "description": "軽量で拡張性に富むMicrosoftのソースコードエディタ",
+              "url": "https://code.visualstudio.com/",
+              "icon": "logos:visual-studio-code"
+            },
+            {
+              "label": "WebStorm",
+              "description": "Web開発に特化したJetBrainsのソースコードエディタ",
+              "url": "https://www.jetbrains.com/ja-jp/webstorm/",
+              "icon": "logos:webstorm"
+            },
+            {
+              "label": "IntelliJ IDEA",
+              "description": "Javaを中心に多言語に対応しているJetBrainsのソースコードエディタ",
+              "url": "https://www.jetbrains.com/ja-jp/idea/",
+              "icon": "logos:intellij-idea"
+            }
+          ]
+        },
+        {
+          "label": "Web IDE",
+          "description": "Webブラウザ上で動作する統合開発環境",
+          "items": [
+            {
+              "label": "CodeSandbox",
+              "description": "即時プレビュー機能付きのWeb IDE",
+              "url": "https://codesandbox.io/",
+              "icon": "simple-icons:codesandbox"
+            },
+            {
+              "label": "CodePen",
+              "description": "デザインの共有、コードのテストに最適なWeb IDE",
+              "url": "https://codepen.io/",
+              "icon": "skill-icons:codepen-light"
+            },
+            {
+              "label": "StackBlitz",
+              "description":"Angular, React, Vueなどのフレームワークに対応したWeb IDE",
+              "url": "https://stackblitz.com/",
+              "icon": "logos:stackblitz-icon"
+            },
+            {
+              "label": "Codespaces",
+              "description": "GitHubが提供するコードエディタとコードリポジトリを統合したWeb IDE",
+              "url": "https://github.co.jp/features/codespaces",
+              "icon": "skill-icons:github-light"
+            }
+          ]
+        },
+        {
+          "label": "ブラウザ",
+          "description": "Webページの閲覧、Webアプリのデバックなどを行うソフトウェア",
+          "items": [
+            {
+              "label": "Chrome",
+              "description": "Googleが提供する高速でシンプルなWebブラウザ",
+              "url": "https://www.google.com/intl/ja_jp/chrome/",
+              "icon": "logos:chrome"
+            },
+            {
+              "label": "Firefox",
+              "description": "Mozillaが提供するオープンソースのWebブラウザ",
+              "url": "https://www.mozilla.org/ja/firefox/",
+              "icon": "logos:firefox"
+            },
+            {
+              "label": "Edge",
+              "description": "Microsoftが提供する高速で安全なWebブラウザ",
+              "url": "https://www.microsoft.com/ja-jp/edge",
+              "icon": "logos:microsoft-edge"
+            },
+            {
+              "label": "Opera",
+              "description": "Opera Softwareが提供する高速でセキュアなWebブラウザ",
+              "url": "https://www.opera.com/ja",
+              "icon": "logos:opera"
+            },
+            {
+              "label": "Brave",
+              "description": "Brave Softwareが提供する広告ブロックとプライバシーに配慮したWebブラウザ",
+              "url": "https://brave.com/ja/",
+              "icon": "logos:brave"
+            },
+            {
+              "label": "Arc Browser",
+              "description": "The Browser Companyが提供する拡張性に優れたChrominiumベースのWebブラウザ",
+              "url": "https://arc.net",
+              "icon": "logos:arc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
