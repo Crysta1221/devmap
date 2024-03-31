@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "name": "Webサービス開発",
-      "description": "WebサイトやWebアプリケーションを作る方向けのカテゴリです",
+      "name": "Webアプリ・サイト開発",
+      "description": "HTML、JavaScriptによるWebアプリ・サイト開発に必要なアプリケーションやツールを紹介しています",
       "items": [
         {
           "label": "IDE(統合開発環境)",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "label": "Web IDE",
+          "label": "クラウド IDE",
           "description": "Webブラウザ上で動作する統合開発環境",
           "items": [
             {
@@ -46,15 +46,15 @@
             },
             {
               "label": "StackBlitz",
-              "description":"Angular, React, Vueなどのフレームワークに対応したWeb IDE",
+              "description": "Angular, React, Vueなどのフレームワークに対応したWeb IDE",
               "url": "https://stackblitz.com/",
               "icon": "logos:stackblitz-icon"
             },
             {
-              "label": "Codespaces",
-              "description": "GitHubが提供するコードエディタとコードリポジトリを統合したWeb IDE",
-              "url": "https://github.co.jp/features/codespaces",
-              "icon": "skill-icons:github-light"
+              "label": "Glitch",
+              "description": "ウェブアプリを簡単に作成・共有できる開発プラットフォーム",
+              "url": "https://glitch.com",
+              "icon": "logos:glitch-icon"
             }
           ]
         },
@@ -97,6 +97,60 @@
               "description": "The Browser Companyが提供する拡張性に優れたChrominiumベースのWebブラウザ",
               "url": "https://arc.net",
               "icon": "logos:arc"
+            }
+          ]
+        },
+        {
+          "label": "ソース管理",
+          "description": "ソースコードやコードのバージョン管理、共有を行うサービス/ツール",
+          "items": [
+            {
+              "label": "git",
+              "description": "ソースコードや変更履歴を管理するオープンソースのバージョン管理システム",
+              "url": "https://git-scm.com/",
+              "icon": "logos:git-icon"
+            },
+            {
+              "label": "GitHub",
+              "description": "オンライン上でソースコードや変更履歴を共有・管理できるサービス",
+              "url": "https://github.com/",
+              "icon": "skill-icons:github-light"
+            },
+            {
+              "label": "GitLab",
+              "description": "セキュリティに配慮し、コードの管理・共有・自動化・バージョン管理を行うサービス",
+              "url": "https://gitlab.com/",
+              "icon": "logos:gitlab"
+            },
+            {
+              "label": "Bitbucket",
+              "description": "GitだけでなくMercurialにも対応しているコード管理・バージョン管理サービス",
+              "url": "https://bitbucket.org/",
+              "icon": "logos:bitbucket"
+            }
+          ]
+        },
+        {
+          "label": "AI",
+          "description": "AIによる開発支援を行うサービス",
+          "items": [
+            {
+              "label": "Chat GPT",
+              "description": "OpenAIによって開発された、自然言語理解と生成に優れたAIモデル",
+              "url": "https://chat.openai.com",
+              "icon": "arcticons:openai-chatgpt"
+            },
+            {
+              "label": "Codeium",
+              "description": "複数のIDEに対応し、無料でAIによるコード補充を行える拡張機能",
+              "url": "https://codeium.com",
+              "icon": "simple-icons:codeium"
+            },
+            {
+              "label": "Github Copilot",
+              "description": "Gihubが提供しているコード補充、独自の言語モデルを提供している拡張機能",
+              "url": "https://docs.github.com/ja/copilot/using-github-copilot/getting-started-with-github-copilot",
+              "icon": "simple-icons:githubcopilot"
             }
           ]
         }
